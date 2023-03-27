@@ -2,6 +2,11 @@
 از قسمت Web وارد Sites بشین و تنظیمات سایتتون رو ویرایش کنید
 
 
+<div align=center>
+<img width="1000" src="./pics/18.png"/>
+</div>
+
+
 وارد تب advanced بشید و مقدار idle time رو به صفر تغییر بدید. اما هنوز submit رو نزنید و برگردید قسمت configuration
 type رو به user program تغییر بدید و دستور زیر رو وارد قسمت command کنید:
 
