@@ -23,6 +23,13 @@
     wget https://raw.githubusercontent.com/s1q0/alwaysdata-xray/main/script.sh && chmod +x ./script.sh && ./script.sh
 
 </div>
+
+آپدیت : اگر با vmess مشکل دارید میتونید با دستور زیر، از vless استفاده کنید. توجه کنید که فیلد path رو درست وارد کنید (/vless). بقیه مراحل فرقی نداره.
+<div dir="ltr">
+
+    wget https://raw.githubusercontent.com/s1q0/alwaysdata-xray/main/script_vless.sh && chmod +x ./script_vless.sh && ./script_vless.sh
+
+</div>
 خط آخر همچین خروجی به شما میده، برای اتصال لازمش داریم. یه جا نگهش دارید.
 
 <div align=center>
