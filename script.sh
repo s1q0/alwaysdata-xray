@@ -23,19 +23,20 @@ generate_config() {
             "listen": "0.0.0.0",
             "listen": "::",
             "port": 8100,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "${UUID}"
+                        "id": "07bdb3be-9644-424b-b0b5-195db249be99"
                     }
-                ]
+                ],
+				"decryption": "none"
             },
             "streamSettings": {
                 "network": "ws",
                 "security": "none",
                 "wsSettings": {
-                    "path": "/vmess"
+                    "path": "/yaemiko"
                 }
             },
             "sniffing": {
