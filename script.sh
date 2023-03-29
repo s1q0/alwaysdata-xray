@@ -27,7 +27,7 @@ generate_config() {
             "settings": {
                 "clients": [
                     {
-                        "id": "REDACTED"
+                        "id": "${UUID}"
                     }
                 ]
             },
@@ -118,5 +118,4 @@ decompression "$ZIP_FILE"
 install_xray
 cleanup
 
-sed -i "s|REDACTED|${UUID}|g" ./config.json
 echo $UUID
